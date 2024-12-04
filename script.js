@@ -78,7 +78,7 @@ function calculateScore() {
 
   // Display score
   const scoreElement = document.getElementById("score");
-  scoreElement.textContent = `Your score is ${score} out of ${questions.length}`;
+  scoreElement.textContent = `Your score is ${score} out of ${questions.length}.`;
 
   // Save the score to localStorage
   localStorage.setItem("score", score);
